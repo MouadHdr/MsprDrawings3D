@@ -1,23 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
-    public WebCamTexture mCamera = null;
-    public GameObject plane;
-
-    // Use this for initialization
-    void Start()
+    public RawImage rawimage;
+    void Start () 
     {
-        plane = GameObject.FindWithTag("Player");
-
-        mCamera = new WebCamTexture();
-        plane.GetComponent<Renderer>().material.mainTexture = mCamera;
-
-
-
-        mCamera.Play();
-
+        WebCamTexture webcamTexture = new WebCamTexture();
+        rawimage.texture = webcamTexture;
+        rawimage.material.mainTexture = webcamTexture;
+        webcamTexture.Play();
     }
 
-
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

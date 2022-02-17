@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scanning.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/3DTransformation.unity
+    guid: 348af1d7d5d4d494bb89dca869cf8205
+  - enabled: 1
+    path: Assets/Scenes/All Captures.unity
+    guid: 6ee76da5c52089b4ba1380aff04bdd39
+  - enabled: 1
+    path: Assets/Scenes/Scanning Saveold.unity
+    guid: 6dfdd164e4dc3b74e9d2c843c5ad832d
   m_configObjects: {}
